@@ -26,7 +26,7 @@ HORIZON = 5
 FEE = .001425
 TAX = .003
 SLIPPAGE = .0005
-LOT = 1000
+LOT = 1
 
 
 def fetch_prices(stock: str, start: str, end: str) -> pd.DataFrame:
